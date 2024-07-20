@@ -1,0 +1,47 @@
+.header-about{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  background-image: url("https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjkwNC1udW5ueS0wMTJfMi5qcGc.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 70px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+}
+.back{
+  height: 30px;
+  width: 30px;
+  margin-left: 50px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.back:hover{
+  height: 35px;
+  width: 35px;
+}
+.h-flex{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  font-weight: bold;
+}
+.my-logo{
+  height: 45px;
+  width: 45px;
+  border-radius: 30px;
+  margin-right: 10px;
+  margin-left: 50px;
+}
+.my-name{
+  height: 130px;
+  margin-top: 5px;
+  margin-right: 70px;
+}
